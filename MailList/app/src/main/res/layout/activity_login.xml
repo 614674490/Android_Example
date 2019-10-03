@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.a15433.maillist.Login">
+    <TextView
+        android:paddingTop="40dp"
+        android:paddingBottom="15dp"
+        android:textSize="40sp"
+        android:layout_gravity="center"
+        android:textColor="@color/colorWhite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welocme to"/>
+    <TextView
+        android:paddingBottom="15dp"
+        android:textColor="@color/colorWhite"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="the Mail List"/>
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:text="uesrname:"
+                android:textSize="20sp" />
+
+            <EditText
+                android:textColor="@color/colorWhite"
+                android:id="@+id/login_ed_name"
+                android:layout_marginRight="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:layout_marginLeft="25dp"
+                android:text="password:"
+                android:textSize="20sp" />
+
+            <EditText
+                android:textColor="@color/colorWhite"
+                android:inputType="textPassword"
+                android:digits="@string/digits"
+                android:layout_marginRight="30dp"
+                android:id="@+id/login_et_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_marginLeft="70dp"
+                android:textColor="@color/colorWhite"
+                android:id="@+id/login_btn_sign"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="login" />
+
+            <Button
+                android:layout_marginLeft="50dp"
+                android:id="@+id/login_btn_register"
+                android:textColor="@color/colorWhite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="regist" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/email"
+            android:gravity="left"
+            android:textColor="@color/colorWhite"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:clickable="true"
+            android:textSize="15sp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text=">如果您有什么宝贵意见，欢迎联系我们"/>
+</LinearLayout>
+

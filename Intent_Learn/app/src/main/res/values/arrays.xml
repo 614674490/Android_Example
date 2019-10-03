@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="open_way">
+        <item name="Chrome"/>
+        <item name="WebView_Browser_Test"/>
+    </string-array>
+
+</resources>

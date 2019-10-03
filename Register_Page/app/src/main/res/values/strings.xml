@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">用户注册界面</string>
+    <string name="user_name">用户名</string>
+    <string name="id">账号</string>
+    <string name="password">密码</string>
+    <string name="hex">性别</string>
+    <string name="born_date">出生日期</string>
+    <string name="hobby">爱好</string>
+
+
+
+
+</resources>

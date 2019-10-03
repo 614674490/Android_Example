@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="50dp"
+       android:text="跳转到另一个工程的Acticity示例"
+       android:textSize="50sp"/>
+   <Button
+       android:id="@+id/btn"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="50dp"
+       android:text="启动新的ACTIVITY"
+       android:textSize="80sp"/>
+   <Button
+       android:id="@+id/btn_Internet"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="50dp"
+       android:text="上网"
+       android:layout_gravity="center"
+       android:textSize="50sp"/>
+
+</LinearLayout>

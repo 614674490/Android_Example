@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="设置"
+        app:showAsAction="always">
+    </item>
+    <item
+        android:title="进入需要密码"
+        android:checked="true"
+        android:id="@+id/needpassword"
+        android:checkable="true">
+    </item>
+    <item
+        android:title="修改密码"
+        android:id="@+id/changepassword">
+    </item>
+    <item
+        android:id="@+id/new_contacts"
+        android:title="新建联系人">
+    </item>
+    <item
+        android:id="@+id/output"
+        android:title="输出到文件">
+    </item>
+    <item
+        android:title="退出"
+        android:id="@+id/exit">
+    </item>
+</menu>

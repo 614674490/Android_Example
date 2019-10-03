@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context="com.a15433.maillist.RegistActivity">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="23sp"
+            android:textColor="@color/colorWhite"
+            android:text="Regist your\nusername and password"
+            android:paddingBottom="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="username:"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp" />
+
+        <EditText
+            android:digits="@string/digits"
+            android:id="@+id/regist_ed_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite" />
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:textColor="@color/colorWhite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="password:"
+                android:textSize="20sp" />
+
+            <EditText
+                android:textColorHint="@color/colorWhite"
+                android:textColor="@color/colorWhite"
+                android:inputType="textPassword"
+                android:digits="@string/digits"
+                android:id="@+id/regist_ed_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:textColor="@color/colorWhite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="re-typing:"
+                android:textSize="20sp" />
+
+            <EditText
+                android:textColorHint="@color/colorWhite"
+                android:textColor="@color/colorWhite"
+                android:inputType="textPassword"
+                android:digits="@string/digits"
+                android:id="@+id/regist_ed_secondpassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+            <Button
+                android:id="@+id/regist_back"
+                android:textColor="@color/colorWhite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="back"/>
+            <Button
+                android:textColor="@color/colorWhite"
+                android:layout_marginLeft="50dp"
+                android:id="@+id/regist_register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="regist"/>
+        </LinearLayout>
+</LinearLayout>

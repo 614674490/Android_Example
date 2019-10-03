@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">班级通讯录</string>
+    <string name="digits">qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM123456789</string>
+    <string name="hint">由字母数字组成</string>
+    <array name="photoSource">
+        <item>从相册选择</item>
+        <item>拍摄</item>
+    </array>
+</resources>
